@@ -1,0 +1,80 @@
+{
+  "best": {
+    "L": 15.0,
+    "N": 102.0,
+    "K": 17.0,
+    "r": 1.0803136109344722,
+    "ETH_Delta_Sharpe_avg": 0.173356286987825,
+    "ETH_Delta_Sharpe_min": -2.252888266900729,
+    "ETH_Delta_Sharpe_max": 1.6452380375851163,
+    "ETH_Sharpe_VT_avg": 0.6522606375423387,
+    "ETH_Sharpe_Mkt_avg": 0.4789043505545136,
+    "ETH_AvgExposure_avg": 0.5641138654645405,
+    "SOL_Delta_Sharpe_avg": 0.7612882284263461,
+    "SOL_Delta_Sharpe_min": -0.26796269704815234,
+    "SOL_Delta_Sharpe_max": 2.3819142240587907,
+    "SOL_Sharpe_VT_avg": 0.5333521619382114,
+    "SOL_Sharpe_Mkt_avg": -0.2279360664881347,
+    "SOL_AvgExposure_avg": 0.49951352736115356,
+    "TSLA_Delta_Sharpe_avg": -0.038120256397355355,
+    "TSLA_Delta_Sharpe_min": -0.4891950067549596,
+    "TSLA_Delta_Sharpe_max": 0.5687356225530134,
+    "TSLA_Sharpe_VT_avg": 0.6068412698406204,
+    "TSLA_Sharpe_Mkt_avg": 0.6449615262379756,
+    "TSLA_AvgExposure_avg": 0.6963528274902968,
+    "SPY_Delta_Sharpe_avg": 0.004429671115772453,
+    "SPY_Delta_Sharpe_min": -0.11649296006636856,
+    "SPY_Delta_Sharpe_max": 0.2159586542219737,
+    "SPY_Sharpe_VT_avg": 0.5698738715625786,
+    "SPY_Sharpe_Mkt_avg": 0.5654442004468062,
+    "SPY_AvgExposure_avg": 1.040985203156054,
+    "avg_exposure_global": 0.7002413558680113,
+    "avg_turnover_ann_global": 9.78089449920803,
+    "score": 0.013298916986327392,
+    "score_core": -0.038120256397355355,
+    "score_mean": 0.22523848253314704,
+    "exposure_penalty": 0.0
+  },
+  "holdout": {
+    "ETH": {
+      "Sharpe_VT": 0.8352668343693708,
+      "Sharpe_Mkt": 0.5368839288308465,
+      "Delta_Sharpe": 0.2983829055385243,
+      "AvgExposure": 0.7367571259070129,
+      "AnnTurnover": 18.04511253747675,
+      "CAGR_VT": 0.41771424773557686,
+      "CAGR_Mkt": 0.1514776152377304,
+      "MaxDD_VT": -0.5846470431034649
+    },
+    "SOL": {
+      "Sharpe_VT": 1.5818144855229528,
+      "Sharpe_Mkt": 1.1992631371688292,
+      "Delta_Sharpe": 0.38255134835412363,
+      "AvgExposure": 0.914538299011043,
+      "AnnTurnover": 18.293598758942125,
+      "CAGR_VT": 2.205474401561307,
+      "CAGR_Mkt": 0.9451641345313286,
+      "MaxDD_VT": -0.6774637463705953
+    },
+    "TSLA": {
+      "Sharpe_VT": 0.5827406524123521,
+      "Sharpe_Mkt": 0.7690723885384926,
+      "Delta_Sharpe": -0.1863317361261405,
+      "AvgExposure": 0.7256516220224463,
+      "AnnTurnover": 9.430149895012038,
+      "CAGR_VT": 0.1723677776127157,
+      "CAGR_Mkt": 0.29640065790311665,
+      "MaxDD_VT": -0.585079198948141
+    },
+    "SPY": {
+      "Sharpe_VT": 0.956996978444056,
+      "Sharpe_Mkt": 1.1649101657989882,
+      "Delta_Sharpe": -0.20791318735493225,
+      "AvgExposure": 1.3406958662241129,
+      "AnnTurnover": 9.095730960018942,
+      "CAGR_VT": 0.17470807482719142,
+      "CAGR_Mkt": 0.15039901123675525,
+      "MaxDD_VT": -0.23623593971139156
+    }
+  }
+}
